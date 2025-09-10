@@ -56,9 +56,9 @@ The system followed an **Agile development approach** with iterative sprints and
 
 ## 🛠️ Tech Stack (Prototype)  
 - **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** PHP (or chosen framework during prototyping)  
+- **Backend:** PHP 
 - **Database:** MySQL  
-- **Tools & Process:** Agile (Scrum-like), Jira/Asana for progress tracking  
+- **Tools & Process:** Agile, monday.com for progress tracking  
 
 ---
 
@@ -71,17 +71,11 @@ The system followed an **Agile development approach** with iterative sprints and
 ---
 
 ## 📖 Notes  
-- This project was developed in an academic setting as part of **SOEN 6841 (Winter 2023)**.  
+- This project was developed in an academic setting.
 - The prototype demonstrates the workflow of a medical system but is **not production-ready**.  
 - Future improvements could include:  
   - Migrating to a modern backend  
   - Implementing role-based authentication with JWT/OAuth2  
   - Enhanced analytics and dashboards  
-
----
-
-## 📚 References  
-- Course: **SOEN 6841 – Software Engineering Team Project** (Winter 2023)
-- [PHQ-9 Questionnaire (CAMH)](https://tools.camh.ca/phq9/#:~:text=Patient%20Health%20Questionnaire%20(PHQ-9)%20-%20CAMH)
 
 ---
