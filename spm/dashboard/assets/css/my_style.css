@@ -1,0 +1,434 @@
+.mdc-drawer__header a {
+    display: flex !important;
+    justify-content: center;
+    background-color: white;
+}
+
+.mdc-drawer__header img {
+    width: 55%;
+}
+
+.bell i.mdi-bell {
+    font-size: 1.25rem !important;
+    margin-right: 0.562rem !important;
+}
+
+.mdc-drawer__header .active {
+    background-color: white;
+}
+
+.content-wrapper .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.table {
+    margin-bottom: 35px;
+}
+
+.table-responsive {
+    padding: 0 14px !important;
+    /* min-height: 60vh; */
+}
+
+.table thead tr th {
+    background-color: #398378;
+    color: white !important;
+    font-weight: 600;
+}
+
+.table td {
+    vertical-align: middle !important;
+}
+
+.table td button:focus {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid black;
+}
+
+.table td button.namedetails {
+    background: none;
+    color: #398378;
+    text-decoration: underline;
+}
+
+.table td button.namedetails:focus,
+.table td button.namedetails:hover {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid transparent;
+}
+
+.table select {
+    padding: 5px 7px;
+    border: none;
+    background: rgba(223, 222, 222, 0.925);
+}
+
+.table .namedetails .btn {
+    background: none;
+}
+
+.table .detailspop .modal-body {
+    text-align: left;
+}
+
+.table .detailspop .modal-body p {
+    margin-bottom: 5px;
+}
+
+.table select {
+    cursor: pointer;
+}
+
+.dflex {
+    display: flex;
+    align-items: center;
+}
+
+.table .datetime {
+    margin-top: 20px;
+}
+
+.datetime p {
+    margin-bottom: 0;
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.datetime input, select {
+    width: 100%;
+    background: white !important;
+    border: 1px solid black !important;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.twoque h6 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.twoque h5 {
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.twoque {
+    margin-bottom: 30px;
+}
+
+.bgn {
+    background: none !important;
+    border: none;
+    text-decoration: underline;
+}
+
+.bgn:focus {
+    background: none !important;
+    border: none !important;
+}
+
+.save {
+    background: #039403;
+    color: white;
+    padding: 2px 7px;
+}
+
+.edit {
+    background: none;
+    cursor: inherit !important;
+}
+
+.edit i {
+    background: #007cbb;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.delete {
+    background: #cb0a03;
+    color: white;
+    padding: 2px 7px;
+}
+
+.delete:focus {
+    border: 1px solid #cb0a03 !important;
+    background: #cb0a03;
+    color: white;
+    padding: 2px 7px;
+}
+
+.savecontent .modal-header,
+.deletecontent .modal-header {
+    border-bottom: none !important;
+    padding-bottom: 0;
+}
+
+.deletecontent .modal-body i {
+    font-size: 45px !important;
+    color: #cb0a03;
+    margin-bottom: 20px;
+}
+
+.savecontent .modal-body i {
+    font-size: 45px !important;
+    color: #039403;
+    margin-bottom: 20px;
+}
+
+.savecontent .modal-body,
+.deletecontent .modal-body {
+    text-align: center;
+}
+
+.savecontent .modal-body {
+    margin-top: 0;
+}
+
+.deletecontent .modal-body p {
+    margin-top: 20px;
+}
+
+.deletecontent .modal-body textarea {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.savecontent .modal-footer,
+.deletecontent .modal-footer {
+    border-top: none;
+}
+
+.savecontent .modal-footer,
+.deletecontent .modal-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+}
+
+.specificpatient .spdetails h6 {
+    font-size: 22px;
+    /* font-style: italic; */
+    margin-bottom: 15px;
+}
+
+.specificpatient .spdetails p {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.specificpatient .spdetails {
+    margin-top: 10px;
+    padding: 20px 12px;
+}
+
+.specificpatient .btns a {
+    margin-right: 7px;
+    padding: 5px 15px;
+    background-color: rgba(218, 218, 218, 0.933);
+    border-radius: 4px;
+    border: 1px solid rgba(218, 218, 218, 0.933);
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+}
+
+.specificpatient .btns button {
+    padding: 5px 15px;
+    margin-right: 7px;
+}
+
+.specificpatient .btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.content-wrapper .searchinput i {
+    border: 1px solid gray;
+    border-left: none;
+    padding: 8px 10px 8px 0;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.content-wrapper .searchinput input {
+    width: 85%;
+    border: 1px solid gray;
+    border-right: none;
+    padding: 5px 10px;
+    color: black;
+}
+
+.content-wrapper .searchinput input:focus {
+    border: 1px solid gray;
+    border-right: none;
+}
+
+.content-wrapper .searchinput {
+    margin-top: 32px;
+    display: flex;
+}
+
+.nopadd {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.mdc-layout-grid__cell .card-inner a {
+    display: flex;
+    align-items: center;
+    color: grey;
+    font-size: 12px;
+}
+.mdc-layout-grid__cell .card-inner a:hover {
+    /* text-decoration: underline; */
+    color: #398378 !important;
+    font-size: 12px;
+}
+.mdc-layout-grid__cell .card-inner a p{
+    margin-bottom: 0;
+    margin-right: 5px;
+}
+.mdc-layout-grid__cell .card-inner a i{
+    font-weight: 100;
+}
+
+.hsize{
+    font-weight: 700 !important;
+    font-size: 25px;
+}
+
+.tgray{
+    color: gray;
+}
+.fwbold{
+    font-weight: 600;
+}
+
+.my-card .time{
+    font-style: italic;
+    font-size: 14px;
+    justify-content: end;
+    display: flex;
+}
+.my-card .main-cont p,
+.my-card .scheduled p{
+    margin-bottom: 4px;
+}
+.my-card .main-cont{
+    margin-top: 10px;
+}
+.my-card .scheduled .btns p{
+    margin-right: 10px;
+}
+.my-card .scheduled .btns .accept:hover{
+    background: green;
+    color: white;
+}
+.my-card .scheduled .btns .cancel:hover{
+    background: red;
+    color: white;
+}
+.my-card .scheduled .btns .accept{
+    border: 1px solid green;
+    color: green;
+}
+.my-card .scheduled .btns .cancel{
+    border: 1px solid red;
+    color: red;
+}
+.my-card .scheduled .btns .accept,
+.my-card .scheduled .btns .cancel{
+    padding: 8px 30px;
+    font-size: 13px;
+    line-height: 1;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-right: 10px;
+    text-transform: uppercase;
+    background: none;
+}
+.my-card .scheduled .btns{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    align-items:center;
+}
+
+.my-card{
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+
+.my-card i{
+    font-size: 16px;
+    color: #398378;
+    margin-right: 5px;
+    font-style: italic;
+}
+
+.my-card .notify{
+    font-size: 17px;
+    color: #398378;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.makereport .dflex input:focus{
+    padding: 5px;
+    border: 1px solid black;
+}
+.makereport .dflex input{
+    padding: 5px;
+    width: 100%;
+    border: 1px solid black;
+}
+.makereport .dflex p{
+    width: 100%;
+    /* margin-right: 10px; */
+    text-align: center;
+        /* display: flex;
+        align-items: center; */
+}
+.makereport .dflex{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.makereport{
+    margin-bottom: 25px;
+}
+.makereport p{
+    margin-bottom: 0;
+}
+.makereport .btn{
+    background-color: #398378;
+    color: white;
+    padding: 7px 20px;
+    border: 1px solid #398378;
+}
+.makereport .btn:hover{
+    background-color: white;
+    color: #398378;
+}
+.showing .mdc-card.info-card {
+    padding: 31px 25px;
+}
+.showing .hsize {
+    margin-bottom: 0;
+}
+.showing.stretch-card {
+    display: block;
+}
