@@ -15,10 +15,10 @@
 
     $mail->SMTPAuth   = TRUE;
     $mail->SMTPSecure = "tls";
-    $mail->Port       = 587;
-    $mail->Host       = "smtp.gmail.com";
-    $mail->Username   = "info.healthcare2023@gmail.com";
-    $mail->Password   = "qioozveosslzzhaf";
+    $mail->Port       = ; //INSERT PORT
+    $mail->Host       = ""; //INSERT HOST
+    $mail->Username   = ""; //INSERT USERNAME
+    $mail->Password   = ""; //INSERT PASSWORD
 
     $servername = "localhost";
     $username = "root";
