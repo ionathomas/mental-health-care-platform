@@ -2,7 +2,7 @@
 
 A web-based medical system designed to support patients who may be experiencing depression.  
 The platform enables patients, counselors, doctors, and managers to interact through a secure and user-friendly system.  
-This project was originally developed in 2023 using HTML, PHP, CSS, JavaScript, and MySQL and later uploaded to GitHub in 2025 for portfolio purposes.
+This project was originally developed in **2023** using **HTML, PHP, CSS, JavaScript, jQuery and MySQL** and later uploaded to GitHub in **2025** for portfolio purposes.
 
 ---
 
